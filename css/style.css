@@ -1,0 +1,1169 @@
+html{font-family: 'Noto Sans KR', sans-serif;}
+
+.g{margin-top:40px;
+	width: 120px;
+	margin-left: 520px;
+	position: absolute;
+	z-index: 2;
+
+ 	animation-name: twinkle;
+ 	animation-duration: 5s;
+    animation-iteration-count: infinite;}
+
+.z{margin-top:40px;
+	width: 120px;
+	margin-left: 650px;
+	position: absolute;
+	z-index: 2;
+
+	animation-name: twinkle;
+	animation-duration: 6s;
+    animation-iteration-count: infinite;}
+
+.j{margin-top:40px;
+	width: 120px;
+	margin-left: 780px;
+	position: absolute;
+	z-index: 2;
+
+	animation-name: twinkle;
+	animation-duration: 7s;
+    animation-iteration-count: infinite;}
+
+@keyframes twinkle
+{
+    0% {opacity:0.25;}
+    25% {opacity:0.5;}
+    50% {opacity:0.25;}
+    75% {opacity:0.75;}
+    100% {opacity:1;}
+}
+
+
+.blue {margin-top:150px;
+	width: 270px;
+	margin-left: 300px;
+	position: absolute;}
+.black {margin-top:150px;
+	width: 270px;
+	margin-left: 580px;
+	position: absolute;
+	z-index: 3;}
+.red {margin-top:150px;
+	width: 270px;
+	margin-left: 860px;
+	position: absolute;}
+.yellow {margin-top:400px;
+	width: 270px;
+	margin-left: 430px;
+	position: absolute;}
+.green {margin-top:400px;
+	width: 270px;
+	margin-left: 730px;
+	position: absolute;}
+
+#rotating_img1 
+	{-webkit-animation: rotation 7s infinite linear;}
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(360deg);}
+}
+
+#rotating_img2 
+	{-webkit-animation: rotation 2s infinite linear;}
+
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(-360deg);}
+}
+
+#rotating_img3
+	{-webkit-animation: rotation 7s infinite linear;}
+
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(360deg);}
+}
+
+#rotating_img4
+	{-webkit-animation: rotation 3s infinite linear;}
+
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(360deg);}
+}
+
+#rotating_img5
+	{-webkit-animation: rotation 10s infinite linear;}
+
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(360deg);}
+}
+
+.t{margin-top:220px;
+	width: 1300px;
+	margin-left: 70px;
+	position: absolute;}
+.c1{margin-top:350px;
+	width: 190px;
+	margin-left: 215px;
+	position: absolute;}
+.c2{margin-top:530px;
+	width: 250px;
+	margin-left: 880px;
+	position: absolute;}
+.c3{margin-top:530px;
+	width: 190px;
+	margin-left: 380px;
+	position: absolute;}
+.c4{margin-top:345px;
+	width: 260px;
+	margin-left: 1010px;
+	position: absolute;}
+.c5{margin-top:470px;
+	width: 180px;
+	margin-left: 135px;
+	position: absolute;}
+.c6{margin-top:490px;
+	width: 160px;
+	margin-left: 1140px;
+	position: absolute;}
+.w{margin-top:660px;
+	margin-left: 600px;
+	line-height: 1.7;
+	font-size: 1.3em; 
+	font-weight: 700;
+	color:white;
+	position: absolute;
+	text-align: center;}
+
+.whitebox{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    width:1300px;
+	height: 50px;
+	z-index: 1;
+	background-color: white;}
+.bluep {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 100px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 10s;
+    animation-iteration-count: infinite;}
+
+.orangep {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 120px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 8s;
+    animation-iteration-count: infinite;}
+.beigep {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 125px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 12s;
+    animation-iteration-count: infinite;}
+.redp{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 140px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 6s;
+    animation-iteration-count: infinite;}
+.yellowp {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 150px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 9s;
+    animation-iteration-count: infinite;}
+.greenp {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 165px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+.skybluep {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 170px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+.bluep2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 200px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;}
+ .orangep2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 175px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;}
+.beigep2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 170px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 12s;
+    animation-iteration-count: infinite;}
+.redp2{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 185px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+.yellowp2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 190px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 10s;
+    animation-iteration-count: infinite;}
+.greenp2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 215px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 1s;
+    animation-iteration-count: infinite;}
+.skybluep2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 230px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 1s;
+    animation-iteration-count: infinite;}
+ .bluep3 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 240px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;}
+
+.orangep3 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 240px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 7s;
+    animation-iteration-count: infinite;}
+.beigep3 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 245px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+.redp3{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 255px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 6s;
+    animation-iteration-count: infinite;}
+.yellowp3 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 265px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 8s;
+    animation-iteration-count: infinite;}
+.greenp3 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 270px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;}
+.skybluep3 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 280px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 12s;
+    animation-iteration-count: infinite;}
+
+.bluep4 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 290px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 11s;
+    animation-iteration-count: infinite;}
+
+.orangep4 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 300px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+.beigep4 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 315px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+.redp4{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 320px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 10s;
+    animation-iteration-count: infinite;}
+.yellowp4 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 325px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 1s;
+    animation-iteration-count: infinite;}
+.greenp4 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 330px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 9s;
+    animation-iteration-count: infinite;}
+.skybluep4 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 335px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 8s;
+    animation-iteration-count: infinite;}
+
+ .bluep5 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 340px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 8s;
+    animation-iteration-count: infinite;}
+
+.orangep5 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 385px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;}
+.beigep5 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 425px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 9s;
+    animation-iteration-count: infinite;}
+.redp5{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 465px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+.yellowp5 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 575px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 7s;
+    animation-iteration-count: infinite;}
+.greenp5{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 565px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 12s;
+    animation-iteration-count: infinite;}
+.skybluep5 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 700px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 7s;
+    animation-iteration-count: infinite;}
+
+ .bluep6 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 750px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+
+.orangep6 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 815px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+.beigep6 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 820px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;}
+.redp6{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 830px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+.yellowp6 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 835px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 7s;
+    animation-iteration-count: infinite;}
+.greenp6{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 850px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 12s;
+    animation-iteration-count: infinite;}
+.skybluep6 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 865px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 7s;
+    animation-iteration-count: infinite;}
+
+ .bluep7 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 870px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 7s;
+    animation-iteration-count: infinite;}
+
+.orangep7 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 880px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 6s;
+    animation-iteration-count: infinite;}
+.beigep7 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 895px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 9s;
+    animation-iteration-count: infinite;}
+.redp7{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 900px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 8s;
+    animation-iteration-count: infinite;}
+.yellowp7 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 915px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;}
+.greenp7{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 925px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+.skybluep7 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 935px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 10s;
+    animation-iteration-count: infinite;}
+
+ .bluep8 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 950px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+
+.orangep8 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 965px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+.beigep8 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 970px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+.redp8{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 980px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+.yellowp8 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 995px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 6s;
+    animation-iteration-count: infinite;}
+.greenp8{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1005px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 12s;
+    animation-iteration-count: infinite;}
+.skybluep8 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1010px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;}
+ .bluep9 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1020px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+
+.orangep9 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1030px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 8s;
+    animation-iteration-count: infinite;}
+.beigep9 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1045px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;}
+.redp9{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1055px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+.yellowp9 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1065px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 7s;
+    animation-iteration-count: infinite;}
+.greenp9{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1070px;
+    width:30px;
+    z-index: -1;
+
+	animation-name:falling;
+	animation-duration: 12s;
+    animation-iteration-count: infinite;}
+.skybluep9 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1080px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+
+ .bluep10 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1100px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 8s;
+    animation-iteration-count: infinite;}
+
+.orangep10 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1130px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 8s;
+    animation-iteration-count: infinite;}
+.beigep10 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1140px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+.redp10{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1165px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 6s;
+    animation-iteration-count: infinite;}
+.yellowp10 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left:1170px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 7s;
+    animation-iteration-count: infinite;}
+.greenp10{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1190px;
+    width:30px;
+    z-index: -1;
+
+	animation-name:falling;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;}
+.skybluep10 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1200px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;}
+
+.bluep11 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1300px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 8s;
+    animation-iteration-count: infinite;}
+
+.orangep10 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1230px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 1s;
+    animation-iteration-count: infinite;}
+.beigep10 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1240px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 9s;
+    animation-iteration-count: infinite;}
+.redp10{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1265px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;}
+.yellowp10 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left:1270px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;}
+.greenp10{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1290px;
+    width:30px;
+    z-index: -1;
+
+	animation-name:falling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+.skybluep10 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1295px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+
+ .purple {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 120px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+ .purple {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 220px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 1s;
+    animation-iteration-count: infinite;}
+.purple2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 320px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+.purple3 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 420px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;}
+.purple4 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 520px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 7s;
+    animation-iteration-count: infinite;}
+.purple5 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 620px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 9s;
+    animation-iteration-count: infinite;}
+.purple6 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 720px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 10s;
+    animation-iteration-count: infinite;}
+.purple7 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 820px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 8s;
+    animation-iteration-count: infinite;}
+.purple8 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 920px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 6s;
+    animation-iteration-count: infinite;}
+.purple9 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1020px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;}
+ .purple10 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1120px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+
+
+ 
+ .pink {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 230px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 11s;
+    animation-iteration-count: infinite;}
+.pink2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 330px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+.pink3 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 430px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;}
+.pink4 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 530px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 6s;
+    animation-iteration-count: infinite;}
+.pink5 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 630px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 8s;
+    animation-iteration-count: infinite;}
+.pink6 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 730px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 11s;
+    animation-iteration-count: infinite;}
+.pink7 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 830px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 9s;
+    animation-iteration-count: infinite;}
+.pink8 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 930px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfallingfalling;
+	animation-duration: 7s;
+    animation-iteration-count: infinite;}
+.pink9 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1030px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: falling;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;}
+ .pink10 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1130px;
+    width:30px;
+    z-index: -1;
+
+	animation-name: fallingfalling;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+@keyframes falling {
+    from {top: 0; opacity: 1;-webkit-transform: rotate(0deg);}
+    to {top: 900px; opacity: 0;-webkit-transform: rotate(180deg);
+}
+@keyframes fallingfalling {
+    from {top: 0; opacity: 1;-webkit-transform: rotate(0deg);}
+    to {top: 900px; opacity: 0;-webkit-transform: rotate(270deg);
+}
+@keyframes fallingfallingfalling {
+    from {top: 0; opacity: 1;-webkit-transform: rotate(0deg);}
+    to {top: 900px; opacity: 0;-webkit-transform: rotate(360deg);
+}
+
+
+
+Resources1×0.5×0.25×Rerun
